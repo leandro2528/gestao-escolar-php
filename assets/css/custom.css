@@ -1,0 +1,132 @@
+.icon-num-notification {
+    width: 30px;
+    height: 30px;
+    background-color: #555;
+    border-radius: 50%;
+    margin-left: 6px;
+}
+
+.system-sige {
+    display: flex;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80px;
+    background-color: #faf9f9;
+    transition: 1s;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #444;
+}
+
+.home,
+.inscricoes,
+.alunos,
+.professores,
+.funcionarios,
+.usuarios,
+.gerenciar,
+.notas,
+.exames,
+.personalizacoes {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background-color: #faf9f9;
+}
+
+.home:hover .home-hidden,
+.inscricoes:hover .inscricoes-hidden,
+.alunos:hover .alunos-hidden,
+.professores:hover .professores-hidden,
+.funcionarios:hover .funcionarios-hidden,
+.usuarios:hover .usuarios-hidden,
+.gerenciar:hover .gerenciar-hidden,
+.notas:hover .notas-hidden,
+.exames:hover .exames-hidden,
+.personalizacoes:hover .personalizacoes-hidden {
+    display: flex;
+    position: absolute;
+    top: 10px;
+    left: 80px;
+}
+
+.home-hidden,
+.inscricoes-hidden,
+.alunos-hidden,
+.professores-hidden,
+.funcionarios-hidden,
+.usuarios-hidden,
+.gerenciar-hidden,
+.notas-hidden,
+.exames-hidden,
+.personalizacoes-hidden {
+    display: none;
+    position: relative;
+    padding: 10px 25px;
+    background-color: #faf9f9;
+}
+
+.text-welcome {
+    background-color: #dbf1f7;
+    color: #047a94;
+}
+
+.buttons-box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    
+}
+
+.btn-estudantes {
+    width: 350px;
+    height: 80px;
+    background-color: #fafbe4;
+    color: #9ba304;
+    font-weight: bold;
+    border: none;
+}
+
+.btn-professores {
+    width: 350px;
+    height: 80px;
+    background-color: #dbf1f7;
+    color: #047a94;
+    font-weight: bold;
+    border: none;
+}
+
+.btn-funcionarios {
+    width: 350px;
+    height: 80px;
+    background-color: #e0f4d9;
+    color: #30a506;
+    font-weight: bold;
+    border: none;
+}
+
+.title-encarregados,
+.title-dados-escola {
+    width: 100%;
+    height: 60px;
+    background-color: #dbf1f7;
+    text-align: center;
+    line-height: 60px;
+}
+
+
+
+
+
+
+
+
